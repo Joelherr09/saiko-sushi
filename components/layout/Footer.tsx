@@ -80,8 +80,10 @@ export default function Footer() {
 
               <div className="flex items-start gap-3">
                 <Phone className="mt-0.5 size-4 text-orange-500" />
-
-                <p>Consulta disponibilidad y pedidos directamente.</p>
+                <a href="https://wa.me/56961980287" target="_blank" rel="noopener noreferrer">
+                  <Phone className="mt-0.5 size-4 text-orange-500" />
+                  <span>Contáctanos por WhatsApp</span>
+                </a>
               </div>
             </div>
           </div>
@@ -93,10 +95,7 @@ export default function Footer() {
             </h3>
 
             <p className="text-sm text-zinc-400">
-              <a href="https://wa.me/56961980287" target="_blank" rel="noopener noreferrer">
-                <Phone className="mt-0.5 size-4 text-orange-500" />
-                <span>Contáctanos por WhatsApp</span>
-              </a>
+              Mira nuestros rolls premium, promociones y novedades.
             </p>
 
             <div className="flex items-center gap-4">
