@@ -66,7 +66,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="mt-0.5 size-4 text-orange-500" />
 
-                <p>Coquimbo, Chile</p>
+                <p>Av El Sauce 1106, Coquimbo, Chile</p>
               </div>
 
               <div className="flex items-start gap-3">

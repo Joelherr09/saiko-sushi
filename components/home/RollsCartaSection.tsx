@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import {
   ChevronLeft,
   ChevronRight,
@@ -22,6 +24,7 @@ type Product = {
   price: number;
   currency?: string;
   description?: string;
+  image?: string;
 };
 
 type Subcategory = {
@@ -107,6 +110,7 @@ function SubcategorySlider({
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const [showLeftArrow, setShowLeftArrow] = useState(false);
+
   const [showRightArrow, setShowRightArrow] = useState(true);
 
   const [isDragging, setIsDragging] = useState(false);
@@ -280,32 +284,58 @@ function SubcategorySlider({
             <button
               key={product.id}
               onClick={() => onProductClick?.(product)}
-              className="group min-w-[260px] max-w-[260px] rounded-[28px] border border-orange-500/10 bg-zinc-950 p-5 text-left transition-all duration-300 hover:border-orange-500/40 hover:bg-zinc-900 sm:min-w-[300px] sm:max-w-[300px]"
+              className="group min-w-[260px] max-w-[260px] overflow-hidden rounded-[28px] border border-orange-500/10 bg-zinc-950 text-left transition-all duration-300 hover:border-orange-500/40 hover:bg-zinc-900 sm:min-w-[300px] sm:max-w-[300px]"
             >
-              {/* TOP */}
-              <div className="mb-5 flex items-start justify-between gap-4">
-                <h4 className="text-lg font-black uppercase leading-tight text-white sm:text-xl">
-                  {product.name}
-                </h4>
+              {/* IMAGE */}
+              <div className="relative h-44 w-full overflow-hidden">
+                <Image
+                  src={
+                    product.image &&
+                    product.image.trim() !== ""
+                      ? product.image
+                      : "/logo/saiko-logo.webp"
+                  }
+                  alt={product.name}
+                  fill
+                  loading="lazy"
+                  sizes="(max-width: 640px) 260px, 300px"
+                  className={`transition-transform duration-500 group-hover:scale-105 ${
+                    product.image
+                      ? "object-cover"
+                      : "object-contain p-6 bg-black"
+                  }`}
+                />
 
-                <span className="shrink-0 text-base font-black text-orange-400 sm:text-lg">
-                  $
-                  {product.price.toLocaleString(
-                    "es-CL"
-                  )}
-                </span>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
               </div>
 
-              {/* DESC */}
-              {product.description && (
-                <p className="text-sm leading-relaxed text-zinc-400">
-                  {product.description}
-                </p>
-              )}
+              {/* CONTENT */}
+              <div className="p-5">
+                {/* TOP */}
+                <div className="mb-4 flex items-start justify-between gap-4">
+                  <h4 className="text-lg font-black uppercase leading-tight text-white sm:text-xl">
+                    {product.name}
+                  </h4>
 
-              {/* CTA */}
-              <div className="mt-5 text-xs font-semibold uppercase tracking-wide text-orange-300 opacity-60 transition-all group-hover:opacity-100">
-                Ver detalles
+                  <span className="shrink-0 text-base font-black text-orange-400 sm:text-lg">
+                    $
+                    {product.price.toLocaleString(
+                      "es-CL"
+                    )}
+                  </span>
+                </div>
+
+                {/* DESC */}
+                {product.description && (
+                  <p className="text-sm leading-relaxed text-zinc-400">
+                    {product.description}
+                  </p>
+                )}
+
+                {/* CTA */}
+                <div className="mt-5 text-xs font-semibold uppercase tracking-wide text-orange-300 opacity-60 transition-all group-hover:opacity-100">
+                  Ver detalles
+                </div>
               </div>
             </button>
           ))}
