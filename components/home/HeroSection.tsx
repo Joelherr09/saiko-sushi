@@ -27,8 +27,43 @@ export default function HeroSection() {
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-orange-500/20 blur-3xl" />
 
       {/* CONTENT */}
-      <div className="relative z-10 mx-auto grid w-full max-w-7xl gap-12 px-6 py-28 sm:py-32 lg:grid-cols-2 lg:items-center lg:gap-16 lg:py-24">
+      <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col px-6 py-28 sm:py-32 lg:grid lg:grid-cols-2 lg:items-center lg:gap-16 lg:py-24">
         
+        {/* MOBILE LOGO */}
+        <div className="relative mb-10 flex items-center justify-center lg:hidden">
+          <div className="absolute h-[180px] w-[180px] rounded-full bg-orange-500/20 blur-3xl" />
+
+          <motion.div
+            initial={{
+              rotate: -360,
+              scale: 0.6,
+              opacity: 0,
+            }}
+            animate={{
+              rotate: 0,
+              scale: 1,
+              opacity: 1,
+            }}
+            transition={{
+              duration: 1.2,
+              ease: [0.22, 1, 0.36, 1],
+            }}
+            className="relative"
+          >
+            <div className="relative h-[180px] w-[180px] overflow-hidden rounded-full border border-orange-500/20 bg-black shadow-[0_0_45px_rgba(255,106,0,0.35)]">
+              <Image
+                src="/logo/saiko-logo.webp"
+                alt="Saiko Sushi"
+                fill
+                priority
+                quality={70}
+                sizes="180px"
+                className="object-cover"
+              />
+            </div>
+          </motion.div>
+        </div>
+
         {/* LEFT */}
         <div className="flex flex-col justify-center">
           <motion.div
@@ -88,8 +123,8 @@ export default function HeroSection() {
           </motion.div>
         </div>
 
-        {/* RIGHT */}
-        <div className="relative flex items-center justify-center pb-4 sm:pb-8 lg:pb-0">
+        {/* RIGHT DESKTOP */}
+        <div className="relative hidden items-center justify-center pb-4 sm:pb-8 lg:flex lg:pb-0">
           <div className="absolute h-[240px] w-[240px] rounded-full bg-orange-500/20 blur-3xl sm:h-[320px] sm:w-[320px] md:h-[380px] md:w-[380px]" />
 
           <motion.div
@@ -109,14 +144,14 @@ export default function HeroSection() {
             }}
             className="relative"
           >
-            <div className="relative h-[220px] w-[220px] overflow-hidden rounded-full border border-orange-500/20 bg-black shadow-[0_0_60px_rgba(255,106,0,0.35)] sm:h-[280px] sm:w-[280px] md:h-[320px] md:w-[320px]">
+            <div className="relative h-[280px] w-[280px] overflow-hidden rounded-full border border-orange-500/20 bg-black shadow-[0_0_60px_rgba(255,106,0,0.35)] md:h-[320px] md:w-[320px]">
               <Image
-                src="/logo/saiko-logo.png"
+                src="/logo/saiko-logo.webp"
                 alt="Saiko Sushi"
                 fill
                 priority
                 quality={75}
-                sizes="(max-width: 640px) 220px, (max-width: 768px) 280px, 320px"
+                sizes="(max-width: 768px) 280px, 320px"
                 className="object-cover"
               />
             </div>
