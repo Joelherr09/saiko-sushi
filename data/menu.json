@@ -1,0 +1,646 @@
+{
+  "premium-rolls": {
+    "title": "Premium Rolls",
+    "subtitle": "Rolls exclusivos con identidad propia y sabores intensos",
+    "badge": "Premium",
+    "slug": "premium-rolls",
+    "products": [
+      {
+        "id": "kyuri-fresh-roll",
+        "name": "Kyuri Fresh Roll",
+        "price": 8500,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/kyuri-fresh-roll.webp",
+        "ingredients": ["Pollo Furay", "Queso crema", "Palta", "Pepino", "Salsa Sansei", "Sésamo"],
+        "shortDescription": "Pollo furay, queso crema y palta envuelto en pepino fresco.",
+        "description": "Exquisito pollo furay acompañado de queso crema y palta envuelto en una fresca plaqueta de pepino, bañado en salsa sansei de la casa con toques de sésamo.",
+        "featured": true
+      },
+      {
+        "id": "ceviche-skin-roll",
+        "name": "Ceviche Skin Roll",
+        "price": 8800,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/ceviche-skin-roll.webp",
+        "ingredients": ["Camarón Furay", "Queso crema", "Palta", "Ceviche", "Skin de salmón frito", "Salsa spicy"],
+        "shortDescription": "Camarón furay con topping de ceviche y skin de salmón.",
+        "description": "Delicioso relleno de camarón furay con queso crema envuelto en una plaqueta de palta con fresco topping de ceviche y una innovadora skins de salmón frito. Opcionalmente puede llevar salsa spicy de la casa.",
+        "featured": true
+      },
+      {
+        "id": "ebi-fuji-maki",
+        "name": "Ebi Fuji Maki",
+        "price": 8800,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/ebi-fuji-maki.webp",
+        "ingredients": ["Salmón Furay", "Queso crema", "Palta", "Cebollín", "Alga nori", "Panko", "Camarones Furay", "Salsa Fuji"],
+        "shortDescription": "Salmón apanado con topping de camarones furay y salsa fuji.",
+        "description": "Relleno de salmón furay, queso crema, palta y cebollín, envuelto en alga nori pasado por panko con un topping de camarones furay que le agregan una crocancia única, junto a una salsa fuji ideal para acentuar los sabores del mar.",
+        "featured": true
+      },
+      {
+        "id": "ebisosu-roll",
+        "name": "Ebisosu Roll",
+        "price": 9200,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/ebinosu-roll.webp",
+        "ingredients": ["Atún Furay", "Palta", "Salmón flambeado", "Salsa de camarón", "Ciboulette"],
+        "shortDescription": "Atún furay envuelto en salmón flambeado.",
+        "description": "Un perfecto atún furay acompañado de palta y envuelto en una exquisita plaqueta de salmón flambeado bajo una salsa de camarón con toques de ciboulette fresco.",
+        "featured": true
+      },
+      {
+        "id": "spicy-roll",
+        "name": "Spicy Roll",
+        "price": 8500,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/spicy-roll.webp",
+        "ingredients": ["Camarón", "Queso crema", "Palta", "Tempura", "Salsa spicy"],
+        "shortDescription": "Roll tempura con salsa spicy de la casa.",
+        "description": "Este roll relleno de camarón, queso crema y palta, envuelto en tempura, lleva un único topping de salsa spicy de la casa que promete revolucionar tu paladar.",
+        "featured": true
+      },
+      {
+        "id": "rolls-sin-arroz",
+        "name": "Rolls sin Arroz",
+        "price": 7500,
+        "currency": "CLP",
+        "image": "/carta/premium-rolls/sin-arroz.webp",
+        "ingredients": ["Pollo o Carne", "Camarón o Salmón", "Queso crema", "Cebollín", "Palta"],
+        "shortDescription": "Rolls sin arroz con envoltura a elección.",
+        "description": "Rolls sin arroz con proteína a elección y envoltura en queso crema, palta o panko.",
+        "featured": false
+      }
+    ]
+  },
+  "entradas": {
+    "title": "Entradas",
+    "subtitle": "El perfecto comienzo para tu experiencia",
+    "badge": "",
+    "slug": "entradas",
+    "products": [
+      {
+        "id": "gyosas-cerdo",
+        "name": "Gyosas de Cerdo (6)",
+        "price": 3200,
+        "currency": "CLP",
+        "image" : "/carta/entradas/gyosas.webp"
+      },
+      {
+        "id": "gyosas-pollo",
+        "name": "Gyosas de Pollo (6)",
+        "price": 3200,
+        "currency": "CLP",
+        "image" : "/carta/entradas/gyosas.webp"
+      },
+      {
+        "id": "gyosas-camaron",
+        "name": "Gyosas de Camarón (6)",
+        "price": 3500,
+        "currency": "CLP",
+        "image" : "/carta/entradas/gyosas.webp"
+      },
+      {
+        "id": "nigiris-camaron",
+        "name": "Nigiris de Camarón (3)",
+        "price": 3000,
+        "currency": "CLP",
+        "image" : "/carta/entradas/nigiris.webp"
+      },
+      {
+        "id": "nigiris-salmon",
+        "name": "Nigiris de Salmón (3)",
+        "price": 3000,
+        "currency": "CLP",
+        "image" : "/carta/entradas/nigiris.webp"
+      },
+      {
+        "id": "chicken-teriyaki",
+        "name": "Chicken Teriyaki",
+        "price": 3000,
+        "currency": "CLP",
+        "image" : "/carta/entradas/chicken.webp"
+      },
+      {
+        "id": "colitas-camaron",
+        "name": "Colitas de Camarón Apanadas (6)",
+        "price": 3500,
+        "currency": "CLP",
+        "image" : "/carta/entradas/colitas.webp"
+      },
+      {
+        "id": "arrollado-primavera",
+        "name": "Arrollado Primavera (5)",
+        "price": 3000,
+        "currency": "CLP",
+        "image" : "/carta/entradas/arrollados.webp"
+      },
+      {
+        "id": "arrollado-jamon-queso",
+        "name": "Arrollado Jamón - Queso (5)",
+        "price": 3000,
+        "currency": "CLP",
+        "image" : "/carta/entradas/arrollados.webp"
+      }
+    ]
+  },
+  "promociones": {
+    "title": "Promociones",
+    "subtitle": "Los mejores combos al mejor precio",
+    "badge": "Hot!",
+    "slug": "promociones",
+    "products": [
+      {
+        "id": "20-cortes-calientes",
+        "name": "20 Cortes Calientes",
+        "price": 9000,
+        "currency": "CLP",
+        "image": "/carta/promociones/20.webp",
+        "description": "20 cortes de Pollo, queso crema y cebollín envueltos en panko."
+      },
+      {
+        "id": "25-cortes-mixtos",
+        "name": "25 Cortes Mixtos",
+        "price": 9000,
+        "currency": "CLP",
+        "image": "/carta/promociones/25.webp",
+        "description": "10 cortes de Kanikama, queso crema y palta envueltos en panko, 10 cortes de Hosomaki con queso crema y palta, más 5 gyosas mixtas."
+      },
+      {
+        "id": "30-cortes-calientes",
+        "name": "30 Cortes Calientes",
+        "price": 11500,
+        "currency": "CLP",
+        "image": "/carta/promociones/30-hot.webp",
+        "description": "20 cortes de Pollo, queso crema y cebollín envueltos en panko más 10 cortes de Kanikama, queso crema y cebollín envueltos en panko."
+      },
+      {
+        "id": "30-cortes-vegetarianos",
+        "name": "30 Cortes Vegetarianos",
+        "price": 11000,
+        "currency": "CLP",
+        "image": "/carta/promociones/30-veg.webp",
+        "description": "10 cortes de Pimentón, queso crema y palta envueltos en sésamo, 10 cortes de Pepino, queso crema y cebollín envueltos en palta y 10 cortes de Aceituna, queso crema y cebollín envueltos en panko."
+      },
+      {
+        "id": "30-cortes-full-pollo",
+        "name": "30 Cortes Full Pollo",
+        "price": 12000,
+        "currency": "CLP",
+        "image": "/carta/promociones/30-pollo.webp",
+        "description": "10 cortes de Pollo, queso crema y cebollín envueltos en palta, 10 cortes envueltos en sésamo y 10 cortes envueltos en panko."
+      },
+      {
+        "id": "36-cortes-premium",
+        "name": "36 Cortes Premium",
+        "price": 17500,
+        "currency": "CLP",
+        "image": "/carta/promociones/36.webp",
+        "description": "10 cortes de Camarón, queso crema y palta envueltos en salmón, 10 cortes de Salmón, queso crema y palta en sésamo, 10 cortes de Atún, queso crema y cebollín envueltos en palta, 3 nigiris de salmón y 3 nigiris de camarón."
+      },
+      {
+        "id": "40-cortes-mixtos",
+        "name": "40 Cortes Mixtos",
+        "price": 14000,
+        "currency": "CLP",
+        "image": "/carta/promociones/40-mix.webp",
+        "description": "10 cortes de Camarón envueltos en palta, 10 cortes de Kanikama envueltos en sésamo, 10 cortes de Pepino envueltos en ciboulette y 10 cortes de Pollo envueltos en panko."
+      },
+      {
+        "id": "40-cortes-calientes",
+        "name": "40 Cortes Calientes",
+        "price": 14000,
+        "currency": "CLP",
+        "image": "/carta/promociones/40-hot.webp",
+        "description": "10 cortes de Kanikama, 10 de Pollo, 10 de Camarón y 10 de Carne, todos con queso crema y cebollín envueltos en panko."
+      },
+      {
+        "id": "50-cortes-mixtos",
+        "name": "50 Cortes Mixtos",
+        "price": 17000,
+        "currency": "CLP",
+        "image": "/carta/promociones/50.webp",
+        "description": "10 cortes de Kanikama envueltos en palta, 10 cortes de Pepino envueltos en ciboulette, 20 cortes de Pollo envueltos en panko y 10 cortes de Aceituna envueltos en panko."
+      },
+      {
+        "id": "60-cortes-mixtos",
+        "name": "60 Cortes Mixtos",
+        "price": 19500,
+        "currency": "CLP",
+        "image": "/carta/promociones/60.webp",
+        "description": "Mix de Camarón, Pollo, Pepino, Kanikama, Carne y Futomaki con distintas envolturas como palta, sésamo, ciboulette y panko."
+      }
+    ]
+  },
+
+  "gohans": {
+    "title": "Gohans",
+    "subtitle": "Tradición japonesa en un bowl",
+    "badge": "",
+    "slug": "gohans",
+    "products": [
+      {
+        "id": "gohan",
+        "name": "Gohan",
+        "price": 5500,
+        "currency": "CLP",
+        "image": "/carta/gohans/gohan.webp",
+        "description": "Base de queso crema, cebollín, arroz, sésamo y palta con proteína y verdura a elección.",
+        "options": {
+          "base": ["Queso crema", "Cebollín", "Arroz", "Sésamo", "Palta"],
+          "proteinChoices": ["Pollo", "Kanikama", "Carne", "Camarón"],
+          "vegetableChoices": ["Palmito", "Pimentón", "Pepino", "Aceituna", "Champiñón"]
+        }
+      },
+      {
+        "id": "gohan-acevichado",
+        "name": "Gohan Acevichado",
+        "price": 7500,
+        "currency": "CLP",
+        "image": "/carta/gohans/gohan-acevichado.webp",
+        "description": "Gohan con mix de ceviche sobre base de queso crema, cebollín, arroz, sésamo y palta.",
+        "options": {
+          "base": ["Queso crema", "Cebollín", "Arroz", "Sésamo", "Palta"],
+          "protein": ["Mix de ceviche"],
+          "vegetableChoices": ["Palmito", "Pimentón", "Pepino", "Aceituna", "Champiñón"]
+        }
+      },
+      {
+        "id": "ceviche-mixto",
+        "name": "Ceviche Mixto",
+        "price": 7000,
+        "currency": "CLP",
+        "image": "/carta/gohans/ceviche.webp",
+        "description": "Ceviche mixto fresco preparado con sabores marinos intensos."
+      }
+    ]
+  },
+  "handrolls": {
+    "title": "Handrolls",
+    "subtitle": "Conos crujientes rellenos de sabor",
+    "badge": "",
+    "slug": "handrolls",
+    "extraInfo": "Cambio de cebollín por palta: +$500",
+    "products": [
+      {
+        "id": "handroll-kanikama-cebollin",
+        "name": "Kanikama - Queso - Cebollín",
+        "price": 3000,
+        "currency": "CLP",
+        "image": "/carta/handroll/handroll-kanikama-cebollin.webp",
+        "description": "Handroll panko relleno de kanikama, queso crema y cebollín."
+      },
+      {
+        "id": "handroll-pollo-palta",
+        "name": "Pollo - Queso - Palta",
+        "price": 3500,
+        "currency": "CLP",
+        "image": "/carta/handroll/handroll-pollo-palta.webp",
+        "description": "Handroll panko relleno de pollo, queso crema y palta."
+      },
+      {
+        "id": "handroll-pollo-cebollin",
+        "name": "Pollo - Queso - Cebollín",
+        "price": 3000,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de pollo, queso crema y cebollín."
+      },
+      {
+        "id": "handroll-camaron-cebollin",
+        "name": "Camarón - Queso - Cebollín",
+        "price": 3500,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de camarón, queso crema y cebollín."
+      },
+      {
+        "id": "handroll-carne-cebollin",
+        "name": "Carne - Queso - Cebollín",
+        "price": 3500,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de carne, queso crema y cebollín."
+      },
+      {
+        "id": "handroll-kanikama-palta",
+        "name": "Kanikama - Queso - Palta",
+        "price": 3500,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de kanikama, queso crema y palta."
+      },
+      {
+        "id": "handroll-camaron-palta",
+        "name": "Camarón - Queso - Palta",
+        "price": 4000,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de camarón, queso crema y palta."
+      },
+      {
+        "id": "handroll-carne-palta",
+        "name": "Carne - Queso - Palta",
+        "price": 4000,
+        "currency": "CLP",
+        "description": "Handroll panko relleno de carne, queso crema y palta."
+      }
+    ]
+  },
+  "handrolls-vegetarianos": {
+    "title": "Handrolls Vegetarianos",
+    "subtitle": "Opción sin carne llena de sabor",
+    "badge": "Vegetariano",
+    "slug": "handrolls-vegetarianos",
+    "products": [
+      {
+        "id": "handroll-palmito",
+        "name": "Palmito - Queso - Cebollín",
+        "price": 3500,
+        "currency": "CLP",
+        "description": "Handroll vegetariano relleno de palmito, queso crema y cebollín."
+      },
+      {
+        "id": "handroll-aceituna",
+        "name": "Aceituna - Pimentón - Pepino",
+        "price": 3000,
+        "currency": "CLP",
+        "description": "Handroll vegetariano relleno de aceituna, pimentón y pepino fresco."
+      }
+    ]
+  },
+  "rolls-de-carta": {
+    "title": "Rolls de Carta",
+    "subtitle": "Nuestra selección clásica",
+    "badge": "",
+    "slug": "rolls-de-carta",
+    "subcategories": [
+      {
+        "id": "hot-rolls",
+        "title": "Hot Rolls",
+        "wrap": "Panko",
+        "products": [
+          {
+            "id": "hot-kanikama",
+            "name": "Kanikama - Queso - Cebollín",
+            "price": 4700,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de kanikama, queso crema y cebollín."
+          },
+          {
+            "id": "hot-pollo",
+            "name": "Pollo - Queso - Cebollín",
+            "price": 4700,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de pollo, queso crema y cebollín."
+          },
+          {
+            "id": "hot-camaron",
+            "name": "Camarón - Queso - Cebollín",
+            "price": 4700,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de camarón, queso crema y cebollín."
+          },
+          {
+            "id": "hot-carne",
+            "name": "Carne - Queso - Cebollín",
+            "price": 4700,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de carne, queso crema y cebollín."
+          },
+          {
+            "id": "hot-salmon",
+            "name": "Salmón - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de salmón, queso crema y cebollín."
+          },
+          {
+            "id": "hot-atun",
+            "name": "Atún - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll caliente envuelto en panko relleno de atún, queso crema y cebollín."
+          }
+        ]
+      },
+      {
+        "id": "avocado-rolls",
+        "title": "Avocado Rolls",
+        "wrap": "Palta",
+        "products": [
+          {
+            "id": "avocado-kanikama",
+            "name": "Kanikama - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de kanikama, queso crema y cebollín."
+          },
+          {
+            "id": "avocado-pollo",
+            "name": "Pollo - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de pollo, queso crema y cebollín."
+          },
+          {
+            "id": "avocado-camaron",
+            "name": "Camarón - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de camarón, queso crema y cebollín."
+          },
+          {
+            "id": "avocado-carne",
+            "name": "Carne - Queso - Cebollín",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de carne, queso crema y cebollín."
+          },
+          {
+            "id": "avocado-salmon",
+            "name": "Salmón - Queso - Cebollín",
+            "price": 5700,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de salmón, queso crema y cebollín."
+          },
+          {
+            "id": "avocado-atun",
+            "name": "Atún - Queso - Cebollín",
+            "price": 5700,
+            "currency": "CLP",
+            "description": "Roll envuelto en palta relleno de atún, queso crema y cebollín."
+          }
+        ]
+      },
+      {
+        "id": "cheese-rolls",
+        "title": "Cheese Rolls",
+        "wrap": "Queso",
+        "products": [
+          {
+            "id": "cheese-kanikama",
+            "name": "Kanikama - Queso - Palta",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de kanikama y palta."
+          },
+          {
+            "id": "cheese-pollo",
+            "name": "Pollo - Queso - Palta",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de pollo y palta."
+          },
+          {
+            "id": "cheese-camaron",
+            "name": "Camarón - Queso - Palta",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de camarón y palta."
+          },
+          {
+            "id": "cheese-carne",
+            "name": "Carne - Queso - Palta",
+            "price": 5200,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de carne y palta."
+          },
+          {
+            "id": "cheese-salmon",
+            "name": "Salmón - Queso - Palta",
+            "price": 5700,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de salmón y palta."
+          },
+          {
+            "id": "cheese-atun",
+            "name": "Atún - Queso - Palta",
+            "price": 5700,
+            "currency": "CLP",
+            "description": "Roll envuelto en queso crema relleno de atún y palta."
+          }
+        ]
+      },
+      {
+        "id": "sake-rolls",
+        "title": "Sake Rolls",
+        "wrap": "Salmón",
+        "products": [
+          {
+            "id": "sake-kanikama",
+            "name": "Kanikama - Queso - Cebollín",
+            "price": 5500,
+            "currency": "CLP",
+            "description": "Roll envuelto en salmón relleno de kanikama, queso crema y cebollín."
+          },
+          {
+            "id": "sake-pollo",
+            "name": "Pollo - Queso - Cebollín",
+            "price": 5500,
+            "currency": "CLP",
+            "description": "Roll envuelto en salmón relleno de pollo, queso crema y cebollín."
+          },
+          {
+            "id": "sake-camaron",
+            "name": "Camarón - Queso - Cebollín",
+            "price": 5500,
+            "currency": "CLP",
+            "description": "Roll envuelto en salmón relleno de camarón, queso crema y cebollín."
+          },
+          {
+            "id": "sake-carne",
+            "name": "Carne - Queso - Cebollín",
+            "price": 5500,
+            "currency": "CLP",
+            "description": "Roll envuelto en salmón relleno de carne, queso crema y cebollín."
+          }
+        ]
+      }
+    ]
+  },
+  "tortas-sushi": {
+    "title": "Tortas de Sushi",
+    "subtitle": "Perfectas para compartir en familia o eventos",
+    "badge": "Familiar",
+    "slug": "tortas-sushi",
+    "extraInfo": "Cambios de ingredientes o envolturas: +$1.000 por cambio.",
+    "products": [
+      {
+        "id": "torta-100-opcion-1",
+        "name": "Torta 100 Cortes Opción 1",
+        "price": 37500,
+        "currency": "CLP",
+        "image": "/carta/torta/torta-100.webp",
+        "description": "Incluye 10 cortes de pollo queso palta en sésamo, 10 de kanikama queso cebollín en sésamo, 20 de camarón queso cebollín en palta, 20 de pepino queso en ciboulette, 10 de kanikama queso cebollín en panko, 10 de carne queso cebollín en panko, 10 de kanikama queso cebollín envueltos en nori y panko y 10 de pollo queso cebollín en panko."
+      },
+      {
+        "id": "torta-100-opcion-2",
+        "name": "Torta 100 Cortes Opción 2",
+        "price": 37500,
+        "currency": "CLP",
+        "image": "/carta/torta/torta-dos-100.webp",
+        "description": "Incluye 10 cortes de pollo queso palta en sésamo, 10 de camarón queso cebollín en palta, 10 de pepino queso en ciboulette, 20 de kanikama queso cebollín en panko, 20 de carne queso cebollín en panko, 10 de kanikama queso cebollín envueltos en nori y panko, 10 de pollo queso cebollín en panko y 10 de camarón queso cebollín en panko."
+      },
+      {
+        "id": "torta-60-cortes",
+        "name": "Torta 60 Cortes",
+        "price": 24500,
+        "currency": "CLP",
+        "image": "/carta/torta/torta-60.webp",
+        "description": "Incluye 10 cortes de pollo queso palta en sésamo, 10 de camarón queso cebollín en palta, 10 de pepino queso en ciboulette, 10 de kanikama queso cebollín en panko, 10 de carne queso cebollín en panko y 10 de kanikama queso cebollín envueltos en nori y panko."
+      }
+    ]
+  },
+  "salsas": {
+    "title": "Salsas",
+    "subtitle": "Acompaña tu sushi con nuestras salsas exclusivas",
+    "badge": "",
+    "slug": "salsas",
+    "products": [
+      {
+        "id": "salsa-fuji",
+        "name": "Salsa Fuji",
+        "price": 500,
+        "currency": "CLP"
+      },
+      {
+        "id": "salsa-acevichada",
+        "name": "Salsa Acevichada",
+        "price": 1000,
+        "currency": "CLP"
+      },
+      {
+        "id": "salsa-yogurt",
+        "name": "Salsa Yogurt",
+        "price": 800,
+        "currency": "CLP"
+      },
+      {
+        "id": "soya",
+        "name": "Soya",
+        "price": 500,
+        "currency": "CLP"
+      },
+      {
+        "id": "teriyaki",
+        "name": "Teriyaki",
+        "price": 500,
+        "currency": "CLP"
+      },
+      {
+        "id": "spicy",
+        "name": "Spicy",
+        "price": 500,
+        "currency": "CLP"
+      },
+      {
+        "id": "wasabi",
+        "name": "Wasabi",
+        "price": 500,
+        "currency": "CLP"
+      },
+      {
+        "id": "jengibre",
+        "name": "Jengibre",
+        "price": 500,
+        "currency": "CLP"
+      }
+    ]
+  }
+}
