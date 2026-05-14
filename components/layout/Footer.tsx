@@ -6,6 +6,7 @@ import {
   MapPin,
   Clock3,
   Phone,
+  Code,
 } from "lucide-react";
 import { FaInstagram } from "react-icons/fa";
 
@@ -92,7 +93,10 @@ export default function Footer() {
             </h3>
 
             <p className="text-sm text-zinc-400">
-              Mira nuestros rolls premium, promociones y novedades.
+              <a href="https://wa.me/56961980287" target="_blank" rel="noopener noreferrer">
+                <Phone className="mt-0.5 size-4 text-orange-500" />
+                <span>Contáctanos por WhatsApp</span>
+              </a>
             </p>
 
             <div className="flex items-center gap-4">
@@ -108,21 +112,27 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Créditos Estratégicos: UNO AL LADO DEL OTRO */}
+        <div className="mt-6 space-y-2 text-xs text-[#6E6E6E]">
+          <div className="flex items-center gap-1.5">
+            <Code size={12} className="text-zinc-500" />
+            <span>Desarrollo por</span>
+            <Link
+              href="https://www.joelherr.site/"
+              target="_blank"
+              className="font-medium text-zinc-300 transition hover:text-white"
+            >
+              Joel Herrera
+            </Link>
+          </div>
+        </div>
+
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-zinc-800 pt-6 text-center text-sm text-zinc-500 md:flex-row">
           <p>
             © {new Date().getFullYear()} Saiko Sushi Coquimbo. Todos los
             derechos reservados.
           </p>
-
-          <a
-            href="https://joelherr.site/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors duration-300 hover:text-orange-400"
-          >
-            Creado por Joel Herrera
-          </a>
         </div>
       </div>
     </footer>
