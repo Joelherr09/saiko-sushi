@@ -81,7 +81,6 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <Phone className="mt-0.5 size-4 text-orange-500" />
                 <a href="https://wa.me/56961980287" target="_blank" rel="noopener noreferrer">
-                  <Phone className="mt-0.5 size-4 text-orange-500" />
                   <span>Contáctanos por WhatsApp</span>
                 </a>
               </div>
